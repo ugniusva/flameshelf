@@ -1,0 +1,29 @@
+FlameShelf bundles these conversion libraries. Their license notices are included
+in this directory or alongside the copied vendor assets.
+
+ImageMagick for WebAssembly and native delegate sources
+https://github.com/dlemstra/magick-wasm/tree/0.0.46
+https://github.com/dlemstra/magick-native
+
+Mediabunny 1.65.2, including the MP3 and FLAC encoder extensions
+https://github.com/Vanilagy/mediabunny/tree/v1.65.2
+https://www.npmjs.com/package/mediabunny/v/1.65.2
+https://www.npmjs.com/package/@mediabunny/mp3-encoder/v/1.65.2
+https://www.npmjs.com/package/@mediabunny/flac-encoder/v/1.65.2
+https://lame.sourceforge.io/
+https://github.com/xiph/flac
+
+PDF.js
+https://github.com/mozilla/pdf.js
+
+Libarchive.js 2.0.2
+https://github.com/nika-begiashvili/libarchivejs
+https://github.com/libarchive/libarchive
+
+SheetJS Community Edition 0.20.3
+https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz
+
+docx, gifenc, and Papa Parse
+https://github.com/dolanmiu/docx
+https://github.com/mattdesl/gifenc
+https://github.com/mholt/PapaParse
