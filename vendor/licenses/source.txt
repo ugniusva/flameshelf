@@ -20,6 +20,15 @@ Libarchive.js 2.0.2
 https://github.com/nika-begiashvili/libarchivejs
 https://github.com/libarchive/libarchive
 
+7-Zip WASM 1.2.0, based on 7-Zip 24.09
+https://github.com/use-strict/7z-wasm/tree/v1.2.0
+https://www.7-zip.org/a/7z2409-src.tar.xz
+
+OGV.js 1.9.0 Ogg demuxer and Theora decoder
+https://github.com/bvibber/ogv.js/tree/1.9.0
+https://gitlab.xiph.org/xiph/ogg
+https://gitlab.xiph.org/xiph/theora
+
 SheetJS Community Edition 0.20.3
 https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz
 
