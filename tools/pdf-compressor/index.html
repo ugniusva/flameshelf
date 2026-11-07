@@ -3,14 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Shrink scanned PDFs by reducing image resolution and quality.">
+  <meta name="description" content="Reduce the size of a scanned PDF by lowering resolution and JPEG quality. Enter an optional target in KB and check the resulting file.">
   <meta name="color-scheme" content="light dark">
   <meta name="flameshelf-image-worker" content="/assets/image-worker-MYQWYLMZ.js">
-  <title>PDF Compressor · FlameShelf</title>
+  <title>PDF Compressor for Scanned Documents | FlameShelf</title>
+  <link rel="canonical" href="https://flameshelf.pages.dev/tools/pdf-compressor/" data-page-seo>
+  <meta property="og:site_name" content="FlameShelf" data-page-seo>
+  <meta property="og:type" content="website" data-page-seo>
+  <meta property="og:url" content="https://flameshelf.pages.dev/tools/pdf-compressor/" data-page-seo>
+  <meta property="og:title" content="PDF Compressor for Scanned Documents | FlameShelf" data-page-seo>
+  <meta property="og:description" content="Reduce the size of a scanned PDF by lowering resolution and JPEG quality. Enter an optional target in KB and check the resulting file." data-page-seo>
+  <script type="application/ld+json" data-page-seo>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://flameshelf.pages.dev/"},{"@type":"ListItem","position":2,"name":"PDF tools","item":"https://flameshelf.pages.dev/pdf-tools/"},{"@type":"ListItem","position":3,"name":"PDF Compressor","item":"https://flameshelf.pages.dev/tools/pdf-compressor/"}]}</script>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <script src="/assets/theme-OBZWG26S.js"></script>
-  <link rel="stylesheet" href="/assets/styles-UIXUTIWZ.css">
-  <script type="module" src="/assets/site-GVHUWFZE.js"></script>
+  <link rel="stylesheet" href="/assets/styles-KXALV2MB.css">
+  <script type="module" src="/assets/site-AW5DJXUG.js"></script>
 </head>
 <body>
   <a href="#main" class="skip">Skip to content</a>
@@ -145,19 +152,24 @@
       </aside>
     </div>
     <aside class="ad-slot" data-ad-placement="tool-after-results" aria-label="Advertisement" hidden>Advertisement</aside>
+    <section class="shelf-section tool-guide" aria-labelledby="tool-guide-title">
+    <h2 id="tool-guide-title">Reduce the size of a scan while keeping it readable</h2>
+    <p>Start with the default 120 DPI and 65% JPEG quality. Enter a target in KB if you are working to an upload limit, then check the result’s file size and read the smallest print.</p>
+    <p>Compression rebuilds pages as images. Save the original for selectable text, links, and forms. If you only need to submit some pages, extract those pages into their own PDF instead.</p>
+  </section>
     <section class="shelf-section related-section">
       <div class="section-heading"><h2>Related tools</h2><a class="text-link" href="/pdf-tools/">PDF tools <svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a></div>
-      <div class="shelf-tools shelf-tools-wide"><a class="tool-card" href="/tools/images-to-pdf/" data-tool-card="images-to-pdf">
-    <svg class="icon tool-glyph" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v11a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z"/><path d="M14 3v6h5M9 13h6m-6 4h6"/></svg>
-    <span class="tool-card-copy"><strong>Images to PDF</strong><span>Combine photos and graphics into a single PDF.</span></span>
+      <div class="shelf-tools shelf-tools-wide"><a class="tool-card" href="/tools/pdf-splitter/" data-tool-card="pdf-splitter">
+    <svg class="icon tool-glyph" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h6a4 4 0 0 0 4-4 4 4 0 0 1 4-4h2m-3-3 3 3-3 3m-7 5a4 4 0 0 1 4 4 4 4 0 0 0 4 4h2m-3-3 3 3-3 3"/></svg>
+    <span class="tool-card-copy"><strong>PDF Splitter</strong><span>Extract selected pages or ranges into new PDF files.</span></span>
     <svg class="icon card-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg>
-  </a><a class="tool-card" href="/tools/pdf-to-jpg/" data-tool-card="pdf-to-jpg">
-    <svg class="icon tool-glyph" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m3 16 5-4 4 4 4-6 5 6"/></svg>
-    <span class="tool-card-copy"><strong>PDF to JPG or PNG</strong><span>Render selected PDF pages as JPG or PNG at your chosen resolution.</span></span>
+  </a><a class="tool-card" href="/tools/remove-pdf-pages/" data-tool-card="remove-pdf-pages">
+    <svg class="icon tool-glyph" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h6a4 4 0 0 0 4-4 4 4 0 0 1 4-4h2m-3-3 3 3-3 3m-7 5a4 4 0 0 1 4 4 4 4 0 0 0 4 4h2m-3-3 3 3-3 3"/></svg>
+    <span class="tool-card-copy"><strong>Remove PDF Pages</strong><span>Remove selected pages and download the rest as a new PDF.</span></span>
     <svg class="icon card-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg>
-  </a><a class="tool-card" href="/tools/pdf-to-word/" data-tool-card="pdf-to-word">
-    <svg class="icon tool-glyph" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v11a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z"/><path d="M14 3v6h5M9 13h6m-6 4h6"/></svg>
-    <span class="tool-card-copy"><strong>PDF to Word</strong><span>Extract selectable text from a PDF into an editable Word document.</span></span>
+  </a><a class="tool-card" href="/tools/image-compressor/" data-tool-card="image-compressor">
+    <svg class="icon tool-glyph" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4l6 6m-5 0h5V5m10-1-6 6m0-5v5h5M4 20l6-6m-5 0h5v5m10 1-6-6m0 5v-5h5"/></svg>
+    <span class="tool-card-copy"><strong>Image Compressor</strong><span>Make images smaller with a quality setting or a target file size.</span></span>
     <svg class="icon card-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg>
   </a></div>
     </section>

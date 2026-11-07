@@ -3,14 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Resize a single photo or a whole batch by pixels or percentage.">
+  <meta name="description" content="Change a photo’s width and height or scale a batch by percentage. Keep the aspect ratio or enter both dimensions for an exact size.">
   <meta name="color-scheme" content="light dark">
   <meta name="flameshelf-image-worker" content="/assets/image-worker-MYQWYLMZ.js">
-  <title>Image Resizer · FlameShelf</title>
+  <title>Image Resizer by Pixels or Percentage | FlameShelf</title>
+  <link rel="canonical" href="https://flameshelf.pages.dev/tools/image-resizer/" data-page-seo>
+  <meta property="og:site_name" content="FlameShelf" data-page-seo>
+  <meta property="og:type" content="website" data-page-seo>
+  <meta property="og:url" content="https://flameshelf.pages.dev/tools/image-resizer/" data-page-seo>
+  <meta property="og:title" content="Image Resizer by Pixels or Percentage | FlameShelf" data-page-seo>
+  <meta property="og:description" content="Change a photo’s width and height or scale a batch by percentage. Keep the aspect ratio or enter both dimensions for an exact size." data-page-seo>
+  <script type="application/ld+json" data-page-seo>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://flameshelf.pages.dev/"},{"@type":"ListItem","position":2,"name":"Image tools","item":"https://flameshelf.pages.dev/image-tools/"},{"@type":"ListItem","position":3,"name":"Image Resizer","item":"https://flameshelf.pages.dev/tools/image-resizer/"}]}</script>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <script src="/assets/theme-OBZWG26S.js"></script>
-  <link rel="stylesheet" href="/assets/styles-UIXUTIWZ.css">
-  <script type="module" src="/assets/site-GVHUWFZE.js"></script>
+  <link rel="stylesheet" href="/assets/styles-KXALV2MB.css">
+  <script type="module" src="/assets/site-AW5DJXUG.js"></script>
 </head>
 <body>
   <a href="#main" class="skip">Skip to content</a>
@@ -166,19 +173,24 @@
       </aside>
     </div>
     <aside class="ad-slot" data-ad-placement="tool-after-results" aria-label="Advertisement" hidden>Advertisement</aside>
+    <section class="shelf-section tool-guide" aria-labelledby="tool-guide-title">
+    <h2 id="tool-guide-title">Resize a photo without stretching it</h2>
+    <p>To make a photo 800 pixels wide, choose Dimensions (px), enter 800 for Width, and leave Height blank. Keep aspect ratio enabled so the height changes in proportion.</p>
+    <p>With the ratio locked, entering both dimensions fits the image inside that box. For an exact width and height, disable the lock and check the preview for stretching. Use the compressor when the requirement is in KB.</p>
+  </section>
     <section class="shelf-section related-section">
       <div class="section-heading"><h2>Related tools</h2><a class="text-link" href="/image-tools/">Image tools <svg class="icon " width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a></div>
-      <div class="shelf-tools shelf-tools-wide"><a class="tool-card" href="/tools/image-converter/" data-tool-card="image-converter">
-    <svg class="icon tool-glyph" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h15m-4-4 4 4-4 4m5 6H5m4-4-4 4 4 4"/></svg>
-    <span class="tool-card-copy"><strong>Image Converter</strong><span>Convert everyday images, camera RAW files, and legacy graphics.</span></span>
-    <svg class="icon card-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg>
-  </a><a class="tool-card" href="/tools/image-compressor/" data-tool-card="image-compressor">
+      <div class="shelf-tools shelf-tools-wide"><a class="tool-card" href="/tools/image-compressor/" data-tool-card="image-compressor">
     <svg class="icon tool-glyph" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4l6 6m-5 0h5V5m10-1-6 6m0-5v5h5M4 20l6-6m-5 0h5v5m10 1-6-6m0 5v-5h5"/></svg>
     <span class="tool-card-copy"><strong>Image Compressor</strong><span>Make images smaller with a quality setting or a target file size.</span></span>
     <svg class="icon card-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg>
-  </a><a class="tool-card" href="/tools/jpg-to-png/" data-tool-card="jpg-to-png">
+  </a><a class="tool-card" href="/tools/image-converter/" data-tool-card="image-converter">
     <svg class="icon tool-glyph" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h15m-4-4 4 4-4 4m5 6H5m4-4-4 4 4 4"/></svg>
-    <span class="tool-card-copy"><strong>JPG to PNG</strong><span>Turn JPEG photos into PNG files for editing or sharing.</span></span>
+    <span class="tool-card-copy"><strong>Image Converter</strong><span>Convert everyday images, camera RAW files, and legacy graphics.</span></span>
+    <svg class="icon card-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg>
+  </a><a class="tool-card" href="/tools/png-to-webp/" data-tool-card="png-to-webp">
+    <svg class="icon tool-glyph" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h15m-4-4 4 4-4 4m5 6H5m4-4-4 4 4 4"/></svg>
+    <span class="tool-card-copy"><strong>PNG to WebP</strong><span>Convert PNG images to WebP with adjustable quality.</span></span>
     <svg class="icon card-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg>
   </a></div>
     </section>
